@@ -1,0 +1,78 @@
+/* Normolize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Baloo Chettan 2", sans-serif;
+}
+
+/* General */
+.container {
+  width: 1245px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 30px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.header .container .menu .link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0a1902;
+  opacity: 0.5;
+  text-transform: capitalize;
+}
+
+.header .container .menu .link.active {
+  opacity: 1;
+  border-bottom: 2px solid #59be29;
+}
+
+.header .container .btn {
+  background: #59be29;
+  color: #ffffff;
+  padding: 13px 44px;
+  border-radius: 20px 80px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.header .container .btn:hover {
+  border-radius: 80px 20px;
+}
