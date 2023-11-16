@@ -31,6 +31,27 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  background: #59be29;
+  color: #ffffff;
+  padding: 13px 44px;
+  border-radius: 20px 80px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btn.white {
+  background: #ffffff;
+  color: #59be29;
+  box-shadow: 0px 10px 20px 0px #16340726;
+}
+
+.btn:hover {
+  border-radius: 80px 20px;
+}
+
 /* Header */
 .header {
   padding: 30px 0;
@@ -62,17 +83,119 @@ body {
   border-bottom: 2px solid #59be29;
 }
 
-.header .container .btn {
-  background: #59be29;
-  color: #ffffff;
-  padding: 13px 44px;
-  border-radius: 20px 80px;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: capitalize;
-  transition: 0.3s;
+/* Hero */
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header .container .btn:hover {
-  border-radius: 80px 20px;
+.hero .container .text-content .uptitle {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #0a1902;
+}
+
+.hero .container .text-content .title {
+  font-size: 121px;
+  font-weight: 600;
+  color: #59be29;
+  line-height: 109px;
+  width: 522px;
+}
+
+.hero .container .text-content .subtitle {
+  font-size: 18px;
+  color: #0a1902;
+  opacity: 70%;
+  margin: 25px 0;
+}
+
+.hero .container .text-content .btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px;
+}
+
+/* Lemon */
+.lemon {
+  margin: 100px 0;
+}
+
+.lemon .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lemon .container .text-content .title {
+  font-size: 49px;
+  font-weight: 600;
+  color: #0a1902;
+  line-height: 64px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 450px;
+  position: relative;
+}
+
+.lemon .container .text-content .title img {
+  position: absolute;
+  right: 0;
+}
+
+.lemon .container .text-content .subtitle {
+  font-size: 18px;
+  color: #0a1902;
+  opacity: 70%;
+  width: 524px;
+  margin: 25px 0 45px;
+}
+
+.lemon .container .text-content .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 35px 75px;
+}
+
+.lemon .container .text-content .wrapper .item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 35px;
+}
+
+.lemon .container .text-content .wrapper .item .number {
+  width: 73px;
+  height: 73px;
+  box-shadow: 0px 10px 20px 0px #1634070d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lemon .container .text-content .wrapper .item .number h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #59be29;
+}
+
+.lemon .container .text-content .wrapper .item .text h3 {
+  font-size: 49px;
+  font-weight: 500;
+  color: #82cd5e;
+}
+
+.lemon .container .text-content .wrapper .item .text p {
+  font-size: 18px;
+  color: #0a1902;
+  opacity: 70%;
+  border-top: 2px solid #59be29;
 }
