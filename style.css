@@ -334,10 +334,121 @@ body {
 
 .products .container .card .price {
   font-size: 35px;
-  color: #59BE29;
+  color: #59be29;
   font-weight: 600;
 }
 
 .products .container .card .about {
   padding: 5px 25px 38px;
+}
+
+/* Email */
+.email .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 105px;
+  box-shadow: 0px 10px 20px 0px #1634070d;
+  border-radius: 30px;
+}
+
+.email .container .right .title {
+  font-size: 49px;
+  color: #0a1902;
+}
+
+.email .container .right p {
+  font-size: 18px;
+  color: #0a1902;
+  opacity: 70%;
+  width: 392px;
+}
+
+.email .container .right form {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.email .container .right form input {
+  padding: 15px 30px;
+  box-shadow: 0px 10px 20px 0px #1634070d;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  width: 258px;
+}
+
+.email .container .right form input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0a1902;
+  opacity: 20%;
+}
+
+.email .container .right form .btn {
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.line {
+  width: 1146px;
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 0%,
+    #59be29 47.4%,
+    rgba(0, 0, 0, 0) 100% );
+  margin: 70px auto;
+}
+
+/* Footer */
+.footer {
+  background: url(images/cherry2.png) no-repeat right;
+  margin-bottom: 80px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .container .logo p {
+  font-size: 16px;
+  color: #0a1902;
+  opacity: 0.8;
+  width: 340px;
+  margin-top: 26px;
+}
+
+.footer .container div h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #0a1902;
+  margin-bottom: 30px;
+}
+
+.footer .container div ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0a1902;
+  margin-bottom: 10px;
+}
+
+.footer .container .socials ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.footer .container .socials ul li {
+  width: 45px;
+  height: 45px;
+  box-shadow: 0px 10px 20px 0px #1634070d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
